@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "hardhat compile",
+    "test": "hardhat test"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,8 @@
     "hardhat": "^2.22.8"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.2",
+    "@axelar-network/axelar-gmp-sdk-solidity": "^6.0.6",
+    "@openzeppelin/contracts": "5.0.2",
     "dotenv": "^16.4.5",
     "hardhat-abi-exporter": "^2.10.1"
   }
